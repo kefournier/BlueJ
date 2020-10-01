@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=Statistics
-comment0.text=\n\ Program\ to\ calculate\ variance\ and\ \n\ standard\ deviation\n\n\ @author\ Kirsten\ Fournier\n\ @version\ September\ 24,\ 2020\n
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-numComments=2
