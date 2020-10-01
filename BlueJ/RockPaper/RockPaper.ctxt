@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=RockPaper
+comment0.text=\n\ Write\ a\ description\ of\ class\ RockPaper\ here.\n\n\ This\ is\ a\ simple\ Rock,\ Paper,\ Scissors\ program.\n\ For\ their\ summer\ assignment,\ the\ AP\ CSA\ class\n\ wrote\ a\ Rock,\ Paper,\ Scissors\ program\ in\ C.\n\ \n\ @author\ Kirsten\ Fournier\n\ @version\ 8/18/20\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

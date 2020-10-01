@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=StepTracker
+comment0.text=\n\ AP\ 2019\ StepTracker\ FRQ\n\n\ @author\ Kirsten\ Fournier\n\ @version\ July\ 13,\ 2020\n
+comment1.params=minNumSteps
+comment1.target=StepTracker(int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ StepTracker\n
+comment2.params=dailySteps
+comment2.target=void\ addDailySteps(int)
+comment2.text=\n\ Method\ to\ calucate\ daily\ steps\n
+comment3.params=
+comment3.target=int\ getActiveDays()
+comment3.text=\n\ Getter\ method\ to\ return\ number\ of\ active\ days\n
+comment4.params=
+comment4.target=double\ averageSteps()
+comment4.text=\n\ Method\ to\ calculate\ daily\ average\ steps\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\n\ Main\ method\n
+numComments=6
