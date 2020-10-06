@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=PotatoHead
+comment0.text=\n\ Program\ to\ demonstrate\ classes\ and\ objects\ \n\n\ @author\ Mrs.\ Fournier\n\ @version\ October\ 6,\ 2020\n
+comment1.params=hisHat\ hisEyes\ hisAge
+comment1.target=PotatoHead(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ PotatoHead\n
+comment2.params=hisHair\ hisHeight
+comment2.target=PotatoHead(java.lang.String,\ int)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4
