@@ -1,5 +1,5 @@
 /**
- * Adding a class to my PotatoHead project
+ * Adding a class to my PotatoHeadMethods project
  * to demonstrate use of getter and setter methods
  * (otherwise known as accessor and mutator methods)
  *
@@ -11,7 +11,7 @@ public class Main
   
     public static void main(String[] args){
         
-        //Creating objects of the PotatoHead class datatype
+        //Creating objects of the PotatoHeadMethods class datatype
         //Think of the class name as your datatype (like an int, double, or string, etc.)
         //Use the "new" keyword to call the constructor and initialize the object
         //Note, the order of your attributes must correspond to the 
