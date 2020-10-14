@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\n\ Adding\ a\ class\ to\ my\ PotatoHead\ project\n\ to\ demonstrate\ use\ of\ getter\ and\ setter\ methods\n\ (otherwise\ known\ as\ accessor\ and\ mutator\ methods)\n\n\ @author\ Mrs.\ Fournier\n\ @version\ October\ 14,\ 2020\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

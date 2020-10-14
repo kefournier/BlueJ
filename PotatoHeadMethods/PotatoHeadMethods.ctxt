@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=PotatoHeadMethods
+comment0.text=\n\ Program\ to\ demonstrate\ classes,\ objects,\ and\ methods\ \n\n\ @author\ Mrs.\ Fournier\n\ @version\ October\ 14,\ 2020\n
+comment1.params=hisHat\ hisEyes\ hisAge
+comment1.target=PotatoHeadMethods(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ PotatoHeadMethods\n
+comment2.params=hisHair\ hisHeight
+comment2.target=PotatoHeadMethods(java.lang.String,\ int)
+comment3.params=age1\ age2\ age3
+comment3.target=double\ averageTheirAges(int,\ int,\ int)
+comment4.params=
+comment4.target=int\ getAge()
+comment5.params=
+comment5.target=int\ setAge()
+numComments=6

@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=MoreAges
-comment0.text=\n\ Adding\ a\ class\ to\ my\ PotatoHead\ project\n\ to\ demonstrate\ use\ of\ getter\ methods\n\ (otherwise\ known\ as\ accessor\ methods)\ here.\n\n\ @author\ Mrs.\ Fournier\n\ @version\ October\ 8,\ 2020\n
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-numComments=2
