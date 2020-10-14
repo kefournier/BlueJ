@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=CircleRevised
+comment0.text=\n\ Circle\ Program\ Revised\ to\ Use\ Multiple\ Class\ Files\n\n\ @author\ Mrs.\ Fournier\n\ @version\ October\ 14,\ 2020\n
+comment1.params=circleRadius
+comment1.target=CircleRevised(int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Circle\n
+comment2.params=
+comment2.target=int\ getRadius()
+comment3.params=
+comment3.target=double\ getArea()
+numComments=4
