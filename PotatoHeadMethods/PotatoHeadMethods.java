@@ -43,11 +43,12 @@ public class PotatoHeadMethods
         
     }
     
+    //getter method
     public int getAge(){
         return age;
     }
     
-   
+   //setter method
     public int setAge(){
         int personAge = getAge();
         personAge++;

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=StringPractice
+comment1.params=creditCard
+comment1.target=java.lang.String\ last4(java.lang.String)
+comment2.params=creditCard
+comment2.target=java.lang.String\ last5(java.lang.String)
+comment3.params=userString
+comment3.target=java.lang.String\ scroll(java.lang.String)
+comment4.params=userName
+comment4.target=java.lang.String\ convertName(java.lang.String)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
