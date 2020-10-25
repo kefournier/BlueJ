@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Book
+comment0.text=\n\ Unit\ 2\ Project\:\ Books,\ Books,\ Books\n\n\ @author\ Kirsten\ Fournier\n\ @version\ October\ 19,\ 2020\n
+comment1.params=bookTitle\ bookAuthor\ bookPages
+comment1.target=Book(java.lang.String,\ java.lang.String,\ int)
+comment2.params=bookTitle\ bookAuthor\ bookPages\ bookGenre
+comment2.target=Book(java.lang.String,\ java.lang.String,\ int,\ java.lang.String)
+comment3.params=min\ max
+comment3.target=int\ addRatings(int,\ int)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

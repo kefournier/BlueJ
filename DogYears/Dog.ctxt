@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Dog
+comment1.params=ageOfDog
+comment1.target=Dog(int)
+comment2.params=myDogAge
+comment2.target=int\ humanAge(int)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4
