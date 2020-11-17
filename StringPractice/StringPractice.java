@@ -33,6 +33,16 @@ public class StringPractice
         return newString;
     }
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     public static String convertName(String userName){
     
     //calling the built in Java trim method

@@ -151,5 +151,7 @@ public class Book
         //character in the string 
         System.out.println("The last letters of each book title concatenated together are " + firstBook.title.substring((firstBook.title.length()) - 1) + secondBook.title.substring((secondBook.title.length()) - 1) + thirdBook.title.substring((thirdBook.title.length()) - 1) + fourthBook.title.substring((fourthBook.title.length()) - 1) + ".");
         
+        double avgRatingAllBooks = (avgFirstBookRating + avgSecondBookRating + avgThirdBookRating + avgFourthBookRating) / 4;
+        System.out.printf("The average rating for all books is: %.2f", avgRatingAllBooks);
     }
 }

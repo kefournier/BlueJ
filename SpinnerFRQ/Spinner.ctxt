@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Spinner
+comment0.text=\n\ Practice\ FRQ\ for\ Unit\ 3\:\ Spinner\n\n\ @author\ Mrs.\ Fournier\n\ @version\ November\ 11,\ 2020\n
+comment1.params=min\ max
+comment1.target=int\ spin(int,\ int)
+comment2.params=
+comment2.target=void\ playRound()
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

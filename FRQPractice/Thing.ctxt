@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Thing
+comment0.text=\n\ FRQ\ Practice\ Units\ 1\ &\ 2\:\ Thing\ Snack\n\n\ @author\ Mrs.\ Fournier\n\ @version\ October\ 27,\ 2020\n
+comment1.params=myName
+comment1.target=Thing(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=newName
+comment3.target=java.lang.String\ setName(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ printMessage()
+comment5.params=snack
+comment5.target=java.lang.String\ characters(java.lang.String)
+comment5.text=\n\ \ \ \ //Part\ C\n\ \ \ \ public\ static\ String\ characters(String\ snack){\n\ \ \ \ \ \ \ \ String\ characters\ \=\ snack.substring(2,\ 6);\n\ \ \ \ \ \ \ \ return\ characters;\n\ \ \ \ }\n
+numComments=6
