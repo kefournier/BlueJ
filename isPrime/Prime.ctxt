@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Prime
+comment0.text=\n\ Program\ to\ detect\ prime\ numbers\n\n\ @author\ Mrs.\ Fournier\n\ @version\ November\ 23,\ 2020\n
+comment1.params=n
+comment1.target=int\ countFactors(int)
+comment2.params=myNum
+comment2.target=boolean\ isPrime(int)
+comment3.params=n
+comment3.target=int\ countPrimes(int)
+comment4.params=n
+comment4.target=void\ printPrimes(int)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

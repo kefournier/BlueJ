@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Kid
+comment0.text=\n\ Testing\ Unit\ 3\ Exam\ FRQ\:\ Kid\ \n\n\ @author\ Mrs.\ Fournier\n\ @version\ November\ 30,\ 2020\n
+comment1.params=kidParent
+comment1.target=Kid(java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Kid\n
+comment2.params=
+comment2.target=java.lang.String\ getParent()
+comment3.params=one\ two
+comment3.target=void\ determineRelationship(Kid,\ Kid)
+numComments=4

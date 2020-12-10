@@ -37,13 +37,14 @@ public class Spinner
                 }
             }
             
-            else if (difference > 0){
-                System.out.println("You win " + difference + " points.");
-               }
-               else{
-                   System.out.println("You lose " + difference + " points.");
-               }
-            }
+        else if (difference > 0){
+           System.out.println("You win " + difference + " points.");
+           }
+           
+        else{
+           System.out.println("You lose " + difference + " points.");
+           }
+        }
        
         
         public static void main(String[] args){
