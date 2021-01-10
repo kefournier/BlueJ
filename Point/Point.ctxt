@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Point
+comment0.text=\n\ Unit\ 5\ -\ Point\ Class\n\n\ @author\ Mrs.\ Fournier\n\ @version\ January\ 5,\ 2021\n
+comment1.params=
+comment1.target=Point()
+comment2.params=newX\ newY
+comment2.target=Point(int,\ int)
+comment3.params=dx\ dy
+comment3.target=void\ translate(int,\ int)
+comment4.params=
+comment4.target=double\ distanceToOrigin()
+comment5.params=
+comment5.target=void\ printTranslate()
+numComments=6
