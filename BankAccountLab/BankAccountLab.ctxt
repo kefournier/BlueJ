@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=BankAccountLab
+comment0.text=\n\ BankAccountLab\ here\n\n\ @author\ Mrs.\ Fournier\n\ @version\ January\ 15,\ 2021\n
+comment1.params=
+comment1.target=BankAccountLab()
+comment2.params=name\ accountNum\ balance
+comment2.target=BankAccountLab(java.lang.String,\ int,\ double)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=amount
+comment4.target=double\ withdraw(int)
+comment5.params=amount
+comment5.target=double\ deposit(int)
+comment6.params=
+comment6.target=int\ getCount()
+comment7.params=
+comment7.target=int\ getAccountNum()
+numComments=8

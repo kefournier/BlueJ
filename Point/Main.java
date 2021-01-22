@@ -13,10 +13,20 @@ public class Main{
     Point newPoint1 = new Point();
     Point newPoint2 = new Point(3, 5);
     Point newPoint3 = new Point(8, 10);
+    //calling the toString method on the newPoint3 object
+    System.out.println("The coordinates of this point are: ");
+    System.out.println(newPoint3.toString());
+    System.out.println();
+    
+    newPoint3.translate(1, 1);
+    System.out.println("The new coordinates of this point are: ");
+    System.out.println(newPoint3.toString());
+    System.out.println();
+    
     
     newPoint1.translate(2, 4);
     newPoint2.translate(10, 12);
-    newPoint3.translate(1, 1);
+    
     
     newPoint1.printTranslate();
     newPoint2.printTranslate();

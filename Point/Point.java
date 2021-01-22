@@ -13,9 +13,9 @@ public class Point {
        x = 0;
        y = 0;
    }
-   public Point(int newX, int newY){
-       x = newX;
-       y = newY;
+   public Point(int x, int y){
+       this.x = x;
+       this.y = y;
    }
    public void translate(int dx, int dy){
        x += dx;
@@ -29,4 +29,10 @@ public class Point {
    public void printTranslate(){
        System.out.println(x + " " + y);
    }
+   
+   
+   public String toString(){
+       return this.x + "," + this.y;
+    }
+    
 }
