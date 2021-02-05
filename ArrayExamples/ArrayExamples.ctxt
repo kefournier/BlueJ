@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=ArrayExamples
+comment0.text=\n\ Array\ Example\ Exercises\n\n\ @author\ Mrs.\ Fournier\n\ @version\ January\ 31,\ 2021\n
+comment1.params=theNumbers
+comment1.target=double\ average(int[])
+comment2.params=theNumbers
+comment2.target=int\ countAboveAve(int[])
+comment3.params=theNumbers
+comment3.target=int\ largest(int[])
+comment4.params=theNumbers
+comment4.target=int\ indexOfSmallest(int[])
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
