@@ -60,7 +60,13 @@ public class Main{
     System.out.println(newCircle2.getX());
     System.out.println(newCircle2.getY());
     
+    Point[] pts = {new Point(1, 2), new Point(4, 5), new Point(2, -4)};
     
+    //don't need to use Arrays.toString method
+    //when using a for each loop
+    for (Point item : pts){
+        System.out.print(item + " ");
+    }
     
     
     

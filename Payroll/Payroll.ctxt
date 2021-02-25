@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Payroll
+comment1.params=itemsSold
+comment1.target=Payroll(int[])
+comment2.params=
+comment2.target=double\ computeBonusThreshold()
+comment3.params=fixedWage\ perItemWage
+comment3.target=void\ computeWages(double,\ double)
+comment4.params=
+comment4.target=void\ printWages()
+numComments=5
