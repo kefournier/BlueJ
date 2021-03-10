@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ArrayListExamples
+comment1.params=list
+comment1.target=int\ smallest(java.util.ArrayList)
+comment2.params=words
+comment2.target=java.lang.String\ longest(java.util.ArrayList)
+comment3.params=list\ x
+comment3.target=java.util.ArrayList\ remove(java.util.ArrayList,\ int)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

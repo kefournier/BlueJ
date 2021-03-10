@@ -14,18 +14,18 @@ public class ArrayExamples
     //an int array and returns the average of 
     //the values 
     public static double average(int[] theNumbers){
-    double sum = 0;
-    for(int i = 0; i < theNumbers.length; i++){
-      sum = sum + theNumbers[i];
+        double sum = 0;
+        for(int i = 0; i < theNumbers.length; i++){
+            sum = sum + theNumbers[i];
+        }
+        return sum/theNumbers.length;
     }
-    return sum/theNumbers.length;
-  }
-  
+
     //Write the method countAboveAve which accepts 
     //an int array and returns the number of values 
     //that are above the average. You must call the 
     //previous method average. 
-    
+
     public static int countAboveAve(int[] theNumbers){
         int count = 0;
         for (int i = 0; i < theNumbers.length; i++){
@@ -35,7 +35,7 @@ public class ArrayExamples
         }
         return count;
     }
-    
+
     //Write the method largest which accepts 
     //an int array and returns the largest 
     //value of the array. 
@@ -53,7 +53,7 @@ public class ArrayExamples
         }
         return largest;
     }
-    
+
     //Write the method indexOfsmallest which 
     //accepts an int array and returns the 
     //index of the smallest value. If there are 
@@ -70,7 +70,7 @@ public class ArrayExamples
         }
         return index;
     }
-    
+
     //method to determine if all numbers in the 
     //array are even
     public static boolean allEven(int[] array){
@@ -81,7 +81,7 @@ public class ArrayExamples
         }
         return true;
     }
-    
+
     //method to print each number of the original
     //array twice, and store the values in a new array
     public static int[] stutter(int[] numbers){
@@ -92,32 +92,32 @@ public class ArrayExamples
         }
         return result;
     }
-    
+
     //method to reverse an array of numbers and 
     //house those reversed numbers in a new method
     public static int[] reverseNew(int[] theArray){
-       int[] newArray = new int[theArray.length];
-   
-       for(int i = 0; i < theArray.length; i++){
-           newArray[i] = theArray[theArray.length - 1 - i];
+        int[] newArray = new int[theArray.length];
+
+        for(int i = 0; i < theArray.length; i++){
+            newArray[i] = theArray[theArray.length - 1 - i];
         }
         return newArray;
     }
-    
+
     //method to reverse array values and hold those
     //values in the same array
     public static int[] reverseSame(int[] theArray){
-        
+
         for(int i = 0; i < theArray.length/2; i++){
-            
+
             int temp = theArray[i];
             theArray[i] = theArray[theArray.length - 1 - i];
             theArray[theArray.length - 1 - i] = temp;
         }
-        
+
         return theArray;
     }
-    
+
     //method to return a digitValue that occurs most
     //frequently in a number
     public static int mostFrequentDigit(int n){
@@ -158,7 +158,7 @@ public class ArrayExamples
         array[0] = temp;
         return array;
     }
-    
+
     //method to shift each element in an array
     //one position to the right
     public static int[] shiftLeft(int[] array){
@@ -171,95 +171,94 @@ public class ArrayExamples
         array[array.length - 1] = temp;
         return array;
     }
-    
+
     /*
     public static int mode(int[] array){
-        
-        //should you accept 101 scores or make this
-        //a smaller range? Maybe do 0 - 20 for a point
-        //system? Or can you keep it open ended?
-        int[] scores = new int[21]   
-    }
-    */
 
-  public static void main(String[] args){
-      int [] myNumbers = {27, 13, 14, 9, 7};
-      int [] yourNumbers = {31, 30, 4, 1, 17};
-      int [] moreNumbers = {2, 4, 6, 8, 10};
-      int [] testNumbers = {11, 34, 5, 17, 56};
-      int [] testNumbers2 = {11, 34, 5, 17, 56};
-      
-      System.out.println(average(myNumbers));
-      System.out.println(countAboveAve(myNumbers));
-      System.out.println(largest(myNumbers));
-      System.out.println(indexOfSmallest(myNumbers));
-      System.out.println(allEven(myNumbers));
-      System.out.println();
-      
-      int[] stuttered = stutter(myNumbers);
-      System.out.println(Arrays.toString(stuttered));
-      System.out.println();
-      
-      int[] testArray = reverseNew(myNumbers);
-      System.out.println(Arrays.toString(testArray));
-      System.out.println();
-      
-      int[] testArray2 = reverseSame(myNumbers);
-      System.out.println(Arrays.toString(testArray2));
-      
-      System.out.println();
-      
-      System.out.print("At least one odd: ");
-      System.out.println(atLeastOneOdd(myNumbers));
-      System.out.println();
-      System.out.print("At least one odd: ");
-      System.out.println(atLeastOneOdd(moreNumbers));
-      System.out.println();
-      
-      System.out.println(average(yourNumbers));
-      System.out.println(countAboveAve(yourNumbers));
-      System.out.println(largest(yourNumbers));
-      System.out.println(indexOfSmallest(yourNumbers));
-      System.out.println(allEven(yourNumbers));
-      
-      System.out.println("Most frequently occurring digit: " + mostFrequentDigit(669260267));
-      
-      shiftRight(testNumbers);
-      System.out.println(Arrays.toString(testNumbers));
-      
-      shiftLeft(testNumbers2);
-      System.out.println(Arrays.toString(testNumbers2));
-      
-      System.out.println();
-      //first attempt to reverse array
-      //half of array gets overwritten
-      int[] arrayNumbers = {11, 42, -5, 27, 0, 89};
-      for(int i = 0; i < arrayNumbers.length; i++){
-          arrayNumbers[i] = arrayNumbers[arrayNumbers.length - 1 - i];
+    //should you accept 101 scores or make this
+    //a smaller range? Maybe do 0 - 20 for a point
+    //system? Or can you keep it open ended?
+    int[] scores = new int[21]   
+    }
+     */
+
+    public static void main(String[] args){
+        int [] myNumbers = {27, 13, 14, 9, 7};
+        int [] yourNumbers = {31, 30, 4, 1, 17};
+        int [] moreNumbers = {2, 4, 6, 8, 10};
+        int [] testNumbers = {11, 34, 5, 17, 56};
+        int [] testNumbers2 = {11, 34, 5, 17, 56};
+
+        System.out.println(average(myNumbers));
+        System.out.println(countAboveAve(myNumbers));
+        System.out.println(largest(myNumbers));
+        System.out.println(indexOfSmallest(myNumbers));
+        System.out.println(allEven(myNumbers));
+        System.out.println();
+
+        int[] stuttered = stutter(myNumbers);
+        System.out.println(Arrays.toString(stuttered));
+        System.out.println();
+
+        int[] testArray = reverseNew(myNumbers);
+        System.out.println(Arrays.toString(testArray));
+        System.out.println();
+
+        int[] testArray2 = reverseSame(myNumbers);
+        System.out.println(Arrays.toString(testArray2));
+
+        System.out.println();
+
+        System.out.print("At least one odd: ");
+        System.out.println(atLeastOneOdd(myNumbers));
+        System.out.println();
+        System.out.print("At least one odd: ");
+        System.out.println(atLeastOneOdd(moreNumbers));
+        System.out.println();
+
+        System.out.println(average(yourNumbers));
+        System.out.println(countAboveAve(yourNumbers));
+        System.out.println(largest(yourNumbers));
+        System.out.println(indexOfSmallest(yourNumbers));
+        System.out.println(allEven(yourNumbers));
+
+        System.out.println("Most frequently occurring digit: " + mostFrequentDigit(669260267));
+
+        shiftRight(testNumbers);
+        System.out.println(Arrays.toString(testNumbers));
+
+        shiftLeft(testNumbers2);
+        System.out.println(Arrays.toString(testNumbers2));
+
+        System.out.println();
+        //first attempt to reverse array
+        //half of array gets overwritten
+        int[] arrayNumbers = {11, 42, -5, 27, 0, 89};
+        for(int i = 0; i < arrayNumbers.length; i++){
+            arrayNumbers[i] = arrayNumbers[arrayNumbers.length - 1 - i];
         }
-      System.out.println(Arrays.toString(arrayNumbers));
-      
-      
-      System.out.println();
-      //second attempt to reverse array, goes too far
-      //and un-reverses the array
-      int[] arrayNumbers2 = {11, 42, -5, 27, 0, 89};
-      for(int i = 0; i < arrayNumbers2.length; i++){
-          int temp = arrayNumbers2[i];
-          arrayNumbers2[i] = arrayNumbers2[arrayNumbers2.length - 1 - i];
-          arrayNumbers2[arrayNumbers2.length - 1 - i] = temp;
+        System.out.println(Arrays.toString(arrayNumbers));
+
+        System.out.println();
+        //second attempt to reverse array, goes too far
+        //and un-reverses the array
+        int[] arrayNumbers2 = {11, 42, -5, 27, 0, 89};
+        for(int i = 0; i < arrayNumbers2.length; i++){
+            int temp = arrayNumbers2[i];
+            arrayNumbers2[i] = arrayNumbers2[arrayNumbers2.length - 1 - i];
+            arrayNumbers2[arrayNumbers2.length - 1 - i] = temp;
         }
-      System.out.println(Arrays.toString(arrayNumbers2));
-      
-      System.out.println();
-      //third attempt to reverse array, this one works
-      int[] arrayNumbers3 = {11, 42, -5, 27, 0, 89};
-      for(int i = 0; i < arrayNumbers3.length/2; i++){
-          int temp = arrayNumbers3[i];
-          arrayNumbers3[i] = arrayNumbers3[arrayNumbers3.length - 1 - i];
-          arrayNumbers3[arrayNumbers3.length - 1 - i] = temp;
+        System.out.println(Arrays.toString(arrayNumbers2));
+
+        System.out.println();
+        //third attempt to reverse array, this one works
+        int[] arrayNumbers3 = {11, 42, -5, 27, 0, 89};
+        for(int i = 0; i < arrayNumbers3.length/2; i++){
+            int temp = arrayNumbers3[i];
+            arrayNumbers3[i] = arrayNumbers3[arrayNumbers3.length - 1 - i];
+            arrayNumbers3[arrayNumbers3.length - 1 - i] = temp;
         }
-      System.out.println(Arrays.toString(arrayNumbers3));
-      
+        System.out.println(Arrays.toString(arrayNumbers3));
+
     }
 }
