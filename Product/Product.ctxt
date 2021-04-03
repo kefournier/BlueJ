@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Product
+comment0.text=\n\ Unit\ 7\ Product\ FRQ\ \n\n\ @author\ Mrs.\ Fournier\n\ @version\ March\ 24,\ 2021\n
+comment1.params=name\ quantity
+comment1.target=Product(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=int\ getQuantity()
+numComments=4

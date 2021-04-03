@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=MagicSquare
+comment0.text=\n\ MagicSquare\ Lab\n\n\ @author\ Mrs.\ Fournier\n\ @version\ March\ 30,\ 2021\n
+comment1.params=squareArray
+comment1.target=MagicSquare(int[][])
+comment2.params=row
+comment2.target=int\ rowSum(int)
+comment3.params=col
+comment3.target=int\ colSum(int)
+comment4.params=sum
+comment4.target=boolean\ diagSums(int)
+comment5.params=
+comment5.target=boolean\ exactlyOnce()
+numComments=6

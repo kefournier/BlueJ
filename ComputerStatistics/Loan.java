@@ -42,7 +42,7 @@ public class Loan
     }
     
     public String toString(){
-        return "ID: " + ID + " Loan amount: " + loanAmount + " Country: " + country + " Days to fund: " + daysToFund + " Num lenders: " + numLenders;
+        return "ID: " + ID + " loan amount: " + loanAmount + " country: " + country + " Days to fund: " + daysToFund + " num lenders: " + numLenders;
     
     }
     
